@@ -11,8 +11,16 @@ body {
   @apply max-w-[1440px] mx-auto;
 }
 
+.dt-wrapper-sm {
+  @apply py-2 md:py-4 lg:py-6 px-8 md:px-10 lg:px-12;
+}
+
 .dt-wrapper-base {
   @apply py-6 md:py-8 lg:py-10 px-8 md:px-10 lg:px-12;
+}
+
+.dt-wrapper-lg {
+  @apply py-10 md:py-12 lg:py-14 px-8 md:px-10 lg:px-12;
 }
 
 .dt-gap {
