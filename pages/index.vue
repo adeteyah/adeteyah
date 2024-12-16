@@ -1,8 +1,8 @@
 <template>
   <div class="grid grid-cols-4 grid-rows-3 gap-4 h-[100svh]">
-    <div class="col-span-2 row-span-2">1</div>
-    <div class="col-span-2 row-span-3 col-start-3">2</div>
-    <div class="col-span-2 row-start-3">3</div>
+    <div class="col-span-2 row-span-2 sm:order-3">1</div>
+    <div class="col-span-2 row-span-3 col-start-3 sm:order-1">2</div>
+    <div class="col-span-2 row-start-3 sm:order-2">3</div>
   </div>
 </template>
 <script setup lang="ts">
