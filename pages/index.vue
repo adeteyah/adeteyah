@@ -5,15 +5,14 @@
         <AppBar />
       </NuxtLayout>
       <div class="grid grid-cols-2">
-        <div>
-          <NuxtLayout name="wrapper" class="bg-slate-50 h-full">
-            <BaseTextLarge>Nuxt Routing set up successfully!</BaseTextLarge>
-            <BaseTextLarge>Nuxt Routing set up successfully!</BaseTextLarge>
-          </NuxtLayout>
-        </div>
-        <div class="h-full">
-          <NuxtLayout name="wrapper"> Image </NuxtLayout>
-        </div>
+        <NuxtLayout name="wrapper" class="h-full">
+          <div class="self-stretch">Test</div>
+          <div class="self-stretch">Test</div>
+          <div class="self-stretch">Test</div>
+        </NuxtLayout>
+        <NuxtLayout name="wrapper">
+          <div class="self-stretch">Test</div>
+        </NuxtLayout>
       </div>
     </NuxtLayout>
   </NuxtLayout>
