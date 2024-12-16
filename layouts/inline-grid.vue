@@ -1,5 +1,5 @@
 <template>
-  <div class="grid dt-gap">
+  <div class="inline-grid dt-gap">
     <slot />
   </div>
 </template>

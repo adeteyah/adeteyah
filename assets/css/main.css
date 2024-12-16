@@ -6,3 +6,7 @@ body {
   font-family: "Switzer", sans-serif;
   @apply tracking-tight;
 }
+
+.dt-gap {
+  @apply gap-2 md:gap-3 lg:gap-4;
+}
