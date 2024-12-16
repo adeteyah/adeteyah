@@ -1,13 +1,3 @@
 <template>
-  <div>
-    
-  </div>
+  <div class="text-sm"></div>
 </template>
-
-<script lang="ts" setup>
-
-</script>
-
-<style>
-
-</style>
