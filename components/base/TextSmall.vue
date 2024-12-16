@@ -1,5 +1,5 @@
 <template>
-  <div class="text-sm leading-6">
+  <div class="text-sm tracking-tight">
     <slot></slot>
   </div>
 </template>

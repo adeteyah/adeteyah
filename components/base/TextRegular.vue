@@ -1,5 +1,5 @@
 <template>
-  <div class="text-base leading-7">
+  <div class="text-base">
     <slot></slot>
   </div>
 </template>
