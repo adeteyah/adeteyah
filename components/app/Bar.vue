@@ -1,10 +1,12 @@
 <template>
-  <nav class="max-h-[54px]">
+  <nav>
     <NuxtLayout name="inline-flex" class="justify-between w-full">
       <NuxtLayout name="inline-flex">
-        <AppIcon />
         <NuxtLink to="/">
           <BaseTextSmall>Home</BaseTextSmall>
+        </NuxtLink>
+        <NuxtLink to="/work">
+          <BaseTextSmall>Work</BaseTextSmall>
         </NuxtLink>
         <NuxtLink to="/about">
           <BaseTextSmall>About</BaseTextSmall>
