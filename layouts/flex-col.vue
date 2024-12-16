@@ -1,5 +1,5 @@
 <template>
-  <div class="inline-flex dt-gap">
+  <div class="flex flex-col dt-gap">
     <slot />
   </div>
 </template>

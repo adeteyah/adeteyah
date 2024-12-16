@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <NuxtLayout name="inline-flex" class="justify-between w-full">
-      <NuxtLayout name="inline-flex">
+    <NuxtLayout name="flex-row" class="justify-between w-full">
+      <NuxtLayout name="flex-row">
         <NuxtLink to="/">
           <BaseTextSmall>Home</BaseTextSmall>
         </NuxtLink>
