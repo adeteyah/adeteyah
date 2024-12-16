@@ -1,5 +1,0 @@
-<template>
-  <div class="h-[100svh]">
-    <slot />
-  </div>
-</template>

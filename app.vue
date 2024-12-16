@@ -1,3 +1,4 @@
 <template>
+  <AppBar />
   <NuxtPage />
 </template>

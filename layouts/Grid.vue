@@ -1,5 +1,0 @@
-<template>
-  <div class="grid dt-gap">
-    <slot />
-  </div>
-</template>

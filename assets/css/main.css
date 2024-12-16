@@ -7,6 +7,18 @@ body {
   @apply tracking-tight;
 }
 
+.dt-container {
+  @apply max-w-[1440px] mx-auto;
+}
+
+.dt-wrapper {
+  @apply py-6 md:py-8 lg:py-10 px-8 md:px-10 lg:px-12;
+}
+
 .dt-gap {
   @apply gap-2 md:gap-3 lg:gap-4;
+}
+
+.dt-text-sm {
+  @apply text-xs md:text-sm lg:text-base;
 }
