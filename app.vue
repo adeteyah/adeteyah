@@ -13,8 +13,9 @@
   </template>
   <NuxtPage />
   <template>
-    <BaseTextHuge
-      >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    <br /><br />
+    <BaseTextHuge>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
       commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
@@ -22,8 +23,9 @@
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     </BaseTextHuge>
-    <BaseTextLarge
-      >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    <br /><br />
+    <BaseTextLarge>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
       commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
@@ -31,8 +33,9 @@
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     </BaseTextLarge>
-    <BaseTextRegular
-      >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    <br /><br />
+    <BaseTextRegular>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
       commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
@@ -40,8 +43,9 @@
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     </BaseTextRegular>
-    <BaseTextSmall
-      >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    <br /><br />
+    <BaseTextSmall>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
       commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
@@ -49,5 +53,6 @@
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     </BaseTextSmall>
+    <br /><br />
   </template>
 </template>
