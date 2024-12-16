@@ -1,4 +1,5 @@
 <template>
-  <AppBar />
-  <NuxtPage />
+  <NuxtLayout :name="container">
+    <NuxtPage />
+  </NuxtLayout>
 </template>
