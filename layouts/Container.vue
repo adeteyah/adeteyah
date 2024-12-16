@@ -1,5 +1,5 @@
 <template>
-  <div class="grid gap-4">
+  <div class="">
     <slot />
   </div>
 </template>
