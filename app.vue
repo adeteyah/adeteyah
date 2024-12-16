@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout name="container">
+  <NuxtLayout name="container-fluid">
     <NuxtLayout name="wrapper">
       <NuxtPage />
     </NuxtLayout>
