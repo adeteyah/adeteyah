@@ -4,10 +4,9 @@
       <AppBar />
       <div class="grid grid-cols-2">
         <div>
-          <div class="bg-slate-50 h-screen">
+          <NuxtLayout name="wrapper" class="bg-slate-50">
             <BaseTextLarge>Nuxt Routing set up successfully!</BaseTextLarge>
-          </div>
-          <BaseTextLarge>Nuxt Routing set up successfully!</BaseTextLarge>
+          </NuxtLayout>
         </div>
         <div>
           <NuxtLayout name="wrapper"> Image </NuxtLayout>
