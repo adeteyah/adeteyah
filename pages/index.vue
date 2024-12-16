@@ -3,7 +3,10 @@
     <NuxtLayout name="wrapper">
       <AppBar />
       <BaseTextLarge>Nuxt Routing set up successfully!</BaseTextLarge>
-      <div class=""></div>
+      <NuxtLayout name="flex-col" class="bg-[red] h-full">
+        <div class="bg-slate-50">Box</div>
+        <div>Box</div>
+      </NuxtLayout>
     </NuxtLayout>
   </NuxtLayout>
 </template>
