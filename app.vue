@@ -1,5 +1,7 @@
 <template>
   <NuxtLayout name="container">
-    <NuxtPage />
+    <NuxtLayout name="wrapper">
+      <NuxtPage />
+    </NuxtLayout>
   </NuxtLayout>
 </template>
