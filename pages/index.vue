@@ -1,4 +1,5 @@
 <template>
+  <AppBar />
   <NuxtLayout name="grid">
     <BaseTextLarge>Nuxt Routing set up successfully!</BaseTextLarge>
     <p>Current route: {{ route.path }}</p>
