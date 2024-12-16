@@ -1,14 +1,10 @@
 <template>
-  <header>
-    <NuxtLayout name="inline-grid">
-      <nav>
-        <AppIcon />
-        <ul>
-          <li><NuxtLink to="/">Home</NuxtLink></li>
-          <li><NuxtLink to="/about">About</NuxtLink></li>
-          <li><NuxtLink to="/contact">Contact</NuxtLink></li>
-        </ul>
-      </nav>
+  <nav class="max-h-[54px]">
+    <NuxtLayout name="inline-flex">
+      <AppIcon />
+      <NuxtLink to="/">Home</NuxtLink>
+      <NuxtLink to="/about">About</NuxtLink>
+      <NuxtLink to="/contact">Contact</NuxtLink>
     </NuxtLayout>
-  </header>
+  </nav>
 </template>
