@@ -1,5 +1,5 @@
 <template>
-  <div class="text-xl tracking-tight">
+  <div class="text-xl">
     <slot></slot>
   </div>
 </template>
