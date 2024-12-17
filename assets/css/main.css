@@ -3,11 +3,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@media screen and (max-width: 768px) {
-  ::-webkit-scrollbar {
-    -webkit-appearance: none;
-  }
+/* Hide scrollbar for all elements */
+::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
 }
+
+body {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
 body {
   font-family: "Satoshi", sans-serif;
   @apply tracking-tight text-darker;
