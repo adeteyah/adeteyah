@@ -7,7 +7,7 @@ body {
   @apply tracking-tight text-darker;
 }
 
-.dt-hover {
+.dt-text-hover {
   @apply opacity-75 hover:opacity-100;
 }
 
