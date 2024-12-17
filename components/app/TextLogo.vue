@@ -1,5 +1,5 @@
 <template>
-  <div class="group font-bold">
+  <div class="group inline-block font-bold">
     A<span class="dt-transition-fade opacity-0 group-hover:opacity-100"
       >ditiya</span
     >
