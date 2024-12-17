@@ -1,10 +1,7 @@
 <template>
   <div>
-    <div class="grid lg:grid-cols-4 dt-gap">
-      <div
-        v-for="work in shouldSlice ? workData.slice(0, 4) : workData"
-        :key="work.id"
-      >
+    <div class="grid lg:grid-cols-6 dt-gap">
+      <div v-for="work in workData" :key="work.id">
         <nuxt-link class="group grid dt-gap" :to="`/work/${work.id}`">
           <div
             class="relative bg-lightgray lg:group-hover:bg-gray flex items-center aspect-video px-6 pt-8 lg:group-hover:pt-6 dt-transition-fade"
@@ -37,11 +34,5 @@
 
 <script setup>
 import work from "~/assets/data/work.js";
-const props = defineProps({
-  shouldSlice: {
-    type: Boolean,
-    default: true,
-  },
-});
 const workData = work;
 </script>
