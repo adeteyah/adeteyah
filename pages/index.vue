@@ -1,3 +1,1 @@
-<template>
-  <AppBar />
-</template>
+<template>Index</template>
