@@ -1,5 +1,3 @@
 <template>
-  <section>
-    <WorkGrid />
-  </section>
+  <WorkFilteredGrid />
 </template>
