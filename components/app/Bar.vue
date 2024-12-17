@@ -1,7 +1,7 @@
 <template>
   <nav class="dt-wrapper flex justify-between">
     <NuxtLink class="dt-text-sm" to="/">
-      <TextLogo />
+      <AppTextLogo />
     </NuxtLink>
     <div class="inline-flex dt-gap">
       <NuxtLink class="dt-text-sm" to="/">Home</NuxtLink>

@@ -22,3 +22,7 @@ body {
 .dt-text-sm {
   @apply text-sm md:text-base;
 }
+
+.dt-transition-fade {
+  @apply transition-all duration-500 ease-out;
+}
