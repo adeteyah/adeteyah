@@ -8,7 +8,7 @@ body {
 }
 
 .dt-container {
-  @apply max-w-[1440px] mx-auto;
+  @apply max-w-[1440px] mx-auto my-4;
 }
 
 .dt-wrapper {
@@ -20,5 +20,5 @@ body {
 }
 
 .dt-text-sm {
-  @apply text-xs md:text-sm lg:text-base;
+  @apply text-sm md:text-base;
 }
