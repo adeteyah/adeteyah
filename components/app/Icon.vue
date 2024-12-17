@@ -1,5 +1,5 @@
 <template>
-  <svg class="size-6" viewBox="0 0 240 264" xmlns="http://www.w3.org/2000/svg">
+  <svg class="h-full" viewBox="0 0 240 264" xmlns="http://www.w3.org/2000/svg">
     <g clip-path="url(#clip0_413_4245)">
       <path d="M144 132H96L192 264H240L144 132Z" />
       <path d="M96 0H48L144 132H192L96 0Z" />
