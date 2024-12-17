@@ -7,6 +7,10 @@ body {
   @apply tracking-tight text-darker;
 }
 
+.dt-hover {
+  @apply opacity-75 hover:opacity-100;
+}
+
 .dt-container {
   @apply max-w-[1440px] mx-auto my-4  px-8 md:px-10 lg:px-12;
 }
