@@ -1,10 +1,10 @@
 <template>
   <div class="group inline-block font-bold">
-    A<span class="dt-transition-fade opacity-50 group-hover:opacity-100"
-      >ditiya</span
+    <span class="dt-transition-fade opacity-50 group-hover:opacity-100"
+      >Aditiya</span
     >
-    R<span class="dt-transition-fade opacity-50 group-hover:opacity-100"
-      >achman
+    <span class="dt-transition-fade opacity-50 group-hover:opacity-100">
+      Rachman
     </span>
   </div>
 </template>
