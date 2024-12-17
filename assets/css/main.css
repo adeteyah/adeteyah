@@ -1,39 +1,35 @@
 @import "noise.css";
 @import "transition.css";
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@media screen and (max-width: 768px) {
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+}
 body {
   font-family: "Satoshi", sans-serif;
   @apply tracking-tight text-darker;
 }
-
 .dt-text-hover {
   @apply opacity-75 hover:opacity-100;
 }
-
 .dt-container {
   @apply mx-auto px-8 md:px-10 lg:px-12;
 }
-
 .dt-wrapper {
   @apply py-2 md:py-4 lg:py-6;
 }
-
 .dt-gap {
   @apply gap-2 md:gap-3 lg:gap-4;
 }
-
 .dt-gap-gallery {
   @apply gap-4 md:gap-5 lg:gap-6;
 }
-
 .dt-text-huge {
   @apply text-4xl md:text-6xl lg:text-9xl;
 }
-
 .dt-transition-fade {
   @apply transition-all duration-200 ease-linear;
 }
