@@ -14,13 +14,13 @@
           </div>
           <div class="grid gap-1">
             <h3
-              class="text-lg font-semibold lg:opacity-75 lg:group-hover:opacity-100 dt-transition-fade"
+              class="text-lg font-semibold lg:opacity-50 lg:group-hover:opacity-100 dt-transition-fade"
             >
               {{ work.title }}
             </h3>
             <UiDivider />
             <div
-              class="text-sm flex justify-between opacity-50 lg:group-hover:opacity-100 dt-transition-fade"
+              class="text-sm flex justify-between opacity-25 lg:group-hover:opacity-100 dt-transition-fade"
             >
               <p>{{ work.service }}</p>
               <p>{{ work.year }}</p>
