@@ -1,3 +1,5 @@
 <template>
-  <WorkGrid />
+  <section>
+    <WorkGrid />
+  </section>
 </template>
