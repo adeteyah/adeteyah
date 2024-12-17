@@ -6,7 +6,7 @@
       <AppIntro />
       <AppFooter />
     </div>
-    <div>
+    <div class="max-h-svh overflow-hidden overflow-y-auto">
       <main class="dt-wrapper">
         <slot />
       </main>
