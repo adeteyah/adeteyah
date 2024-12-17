@@ -1,5 +1,5 @@
 <template>
-  <div class="flex bg-[red] h-full">
+  <div class="flex bg-[red]">
     <div class="grid lg:grid-cols-4 dt-gap-gallery">
       <div v-for="work in workData.slice(0, 4)" :key="work.id">
         <nuxt-link class="group grid gap-2" :to="`/work/${work.id}`">
