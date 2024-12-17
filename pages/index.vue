@@ -1,3 +1,3 @@
 <template>
-  <WorkGrid :shouldSlice="false" />
+  <WorkIndexGrid />
 </template>
