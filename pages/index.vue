@@ -1,8 +1,16 @@
 <template>
-  <div class="grid grid-cols-4 grid-rows-3 gap-4 h-[100svh]">
-    <div class="col-span-2 row-span-2 sm:order-3">1</div>
-    <div class="col-span-2 row-span-3 col-start-3 sm:order-1">2</div>
-    <div class="col-span-2 row-start-3 sm:order-2">3</div>
+  <div
+    class="lg:grid grid-cols-4 grid-rows-3 dt-gap h-[100svh] dt-wrapper-base"
+  >
+    <div class="col-span-2 row-span-2">
+      <div class="bg-slate-50 h-full">Test</div>
+    </div>
+    <div class="col-span-2 row-span-3 col-start-3">
+      <div class="bg-slate-50 h-full">Test</div>
+    </div>
+    <div class="col-span-2 row-start-3">
+      <div class="bg-slate-50 h-full">Test</div>
+    </div>
   </div>
 </template>
 <script setup lang="ts">
