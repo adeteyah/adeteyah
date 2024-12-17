@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex justify-between">
+  <nav class="dt-wrapper flex justify-between">
     <div class="inline-flex dt-gap">
       <NuxtLink class="dt-text-sm" to="/">Home</NuxtLink>
       <NuxtLink class="dt-text-sm" to="/about">About</NuxtLink>
