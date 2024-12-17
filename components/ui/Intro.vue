@@ -1,5 +1,5 @@
 <template>
-  <div class="hidden lg:grid lg:grid-cols-3 opacity-50 gap-2 text-sm">
+  <div class="hidden lg:grid lg:grid-cols-3 opacity-50">
     <span class="lg:text-left">
       <slot name="firstText" />
     </span>

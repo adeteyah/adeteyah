@@ -8,11 +8,11 @@ body {
 }
 
 .dt-container {
-  @apply max-w-[1440px] mx-auto my-4;
+  @apply max-w-[1440px] mx-auto my-4  px-8 md:px-10 lg:px-12;
 }
 
 .dt-wrapper {
-  @apply py-2 md:py-4 lg:py-6 px-8 md:px-10 lg:px-12;
+  @apply py-2 md:py-4 lg:py-6;
 }
 
 .dt-gap {
