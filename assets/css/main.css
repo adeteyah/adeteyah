@@ -30,10 +30,6 @@ body {
   @apply text-4xl md:text-6xl lg:text-9xl;
 }
 
-.dt-text-sm {
-  @apply text-sm md:text-base;
-}
-
 .dt-transition-fade {
   @apply transition-all duration-200 ease-linear;
 }
