@@ -1,3 +1,3 @@
 <template>
-  <div class="h-full bg-dark">Text</div>
+  <div class="h-[100%] bg-dark">Text</div>
 </template>
