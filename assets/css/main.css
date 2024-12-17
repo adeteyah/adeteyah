@@ -19,6 +19,10 @@ body {
   @apply gap-2 md:gap-3 lg:gap-4;
 }
 
+.dt-text-huge {
+  @apply text-4xl md:text-6xl lg:text-9xl;
+}
+
 .dt-text-sm {
   @apply text-sm md:text-base;
 }

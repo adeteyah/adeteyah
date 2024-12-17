@@ -1,6 +1,6 @@
 <template>
-  <nav class="dt-wrapper flex justify-between">
-    <NuxtLink class="dt-text-sm" to="/">
+  <nav class="dt-wrapper grid justify-between">
+    <NuxtLink class="dt-text-huge" to="/">
       <AppTextLogo />
     </NuxtLink>
     <div class="inline-flex dt-gap">
