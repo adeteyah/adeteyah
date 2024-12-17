@@ -1,8 +1,8 @@
 <template>
   <nav class="dt-wrapper grid grid-flow-col dt-gap">
-    <div class="block lg:hidden flex justify-between gap-2">
+    <div class="lg:hidden flex justify-between gap-2">
       <NuxtLink class="text-sm dt-text-hover" to="/">Menu</NuxtLink>
-      <NuxtLink class="text-sm dt-text-hover" to="/">Menu</NuxtLink>
+      <Icon name="uil:github" />
     </div>
     <div class="hidden lg:flex flex-col gap-2">
       <h3>Menu</h3>
