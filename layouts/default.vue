@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-[1440px] mx-auto">
     <AppBar />
-    <main>
+    <main class="dt-wrapper">
       <slot />
     </main>
     <AppFooter />
