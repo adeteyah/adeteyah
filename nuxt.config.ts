@@ -5,7 +5,6 @@ export default defineNuxtConfig({
   app: {
     pageTransition: {
       name: "fade",
-      mode: "out-in",
     },
   },
   modules: ["@nuxt/image", "@nuxt/fonts", "@nuxt/icon"],
