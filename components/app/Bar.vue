@@ -7,7 +7,9 @@
     </div>
     <div class="hidden lg:flex flex-col gap-2">
       <NuxtLink class="text-sm dt-text-hover" to="/">Home</NuxtLink>
-      <NuxtLink class="text-sm dt-text-hover" to="/work">Information</NuxtLink>
+      <NuxtLink class="text-sm dt-text-hover" to="/information">
+        Information
+      </NuxtLink>
     </div>
     <div class="hidden lg:flex flex-col gap-2">
       <NuxtLink class="text-sm dt-text-hover" to="/work/tag/uiux">
