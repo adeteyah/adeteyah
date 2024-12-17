@@ -1,8 +1,8 @@
 <template>
   <div class="dt-container">
+    <AppBar />
     <AppHeader />
     <UiDivider />
-    <AppBar />
     <main class="dt-wrapper">
       <slot />
     </main>
