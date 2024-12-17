@@ -1,6 +1,6 @@
 <template>
   <footer class="dt-wrapper">
-    <div class="size-24 md:size-44 lg:size-80">
+    <div class="size-12 md:size-16 lg:size-24">
       <IconLogo />
     </div>
   </footer>

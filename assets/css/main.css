@@ -15,7 +15,7 @@ body {
 }
 
 .dt-container {
-  @apply mx-auto my-2  px-8 md:px-10 lg:px-12;
+  @apply mx-auto px-8 md:px-10 lg:px-12;
 }
 
 .dt-wrapper {
