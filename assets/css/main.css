@@ -10,10 +10,6 @@ body {
   @apply tracking-tight text-darker;
 }
 
-section {
-  @apply my-96;
-}
-
 .dt-text-hover {
   @apply opacity-75 hover:opacity-100;
 }
