@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="grid lg:grid-cols-4 dt-gap-gallery">
+    <div class="grid lg:grid-cols-3 dt-gap-gallery">
       <div v-for="work in workData" :key="work.id">
         <nuxt-link class="group grid gap-2" :to="`/work/${work.id}`">
           <div

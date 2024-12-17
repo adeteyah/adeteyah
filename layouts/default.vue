@@ -1,6 +1,6 @@
 <template>
   <div class="dt-container flex gap-12">
-    <div class="w-6/12 lg:w-4/12 h-svh flex flex-col justify-between">
+    <div class="w-6/12 lg:w-4/12 h-svh flex flex-col justify-between group">
       <AppBar />
       <AppHeader />
       <AppIntro />
