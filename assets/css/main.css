@@ -4,7 +4,7 @@
 
 body {
   font-family: "Switzer", sans-serif;
-  @apply tracking-tight;
+  @apply tracking-tight text-darker;
 }
 
 .dt-container {
