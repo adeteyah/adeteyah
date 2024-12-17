@@ -6,9 +6,9 @@
   </h1>
   <div class="dt-wrapper">
     <UiIntro>
-      <template #firstText> I design for user comfort </template>
-      <template #secondText> I build to bring simplicity to systems </template>
-      <template #thirdText> Let’s make your vision come alive! </template>
+      <template #firstText> Freelance designer & developer </template>
+      <template #secondText> Based in Bandung </template>
+      <template #thirdText>Let’s make your vision come alive! </template>
     </UiIntro>
   </div>
 </template>
