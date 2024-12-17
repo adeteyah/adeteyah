@@ -27,6 +27,6 @@ body {
   @apply text-sm md:text-base;
 }
 
-.dt-transition-fade {
+.dt-transition-blur {
   @apply transition-all duration-500 ease-out;
 }
