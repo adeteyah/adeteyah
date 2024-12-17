@@ -10,9 +10,15 @@
       <NuxtLink class="text-sm dt-text-hover" to="/work">Information</NuxtLink>
     </div>
     <div class="hidden lg:flex flex-col gap-2">
-      <NuxtLink class="text-sm dt-text-hover" to="/work">UI/UX Design</NuxtLink>
-      <NuxtLink class="text-sm dt-text-hover" to="/">Website</NuxtLink>
-      <NuxtLink class="text-sm dt-text-hover" to="/">Mobile App</NuxtLink>
+      <NuxtLink class="text-sm dt-text-hover" to="/work/tag/uiux">
+        UI/UX Design
+      </NuxtLink>
+      <NuxtLink class="text-sm dt-text-hover" to="/work/tag/website">
+        Website
+      </NuxtLink>
+      <NuxtLink class="text-sm dt-text-hover" to="/work/tag/mobile">
+        Mobile App
+      </NuxtLink>
     </div>
   </nav>
 </template>
