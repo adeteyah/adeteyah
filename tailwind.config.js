@@ -24,8 +24,8 @@ export default {
           dark: "#fffcf2",
         },
         background: {
-          light: "#fefefe",
-          dark: "#0b090a",
+          light: "#ccc5b9",
+          dark: "#252422",
         },
         border: {
           light: "#f5f3f4",
