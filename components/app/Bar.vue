@@ -43,7 +43,7 @@
     </div>
     <div
       class="flex flex-1 flex-col gap-2 items-start"
-      v-if="/^\/$|^\/information\//.test($route.path)"
+      v-if="/^\/information(\/|$)/.test($route.path)"
     >
       <NuxtLink
         class="text-sm dt-text-hover"
