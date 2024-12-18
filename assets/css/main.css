@@ -7,6 +7,9 @@ body {
   font-family: "Satoshi", sans-serif;
   @apply tracking-tight text-darker;
 }
+.dt-opacity-transition {
+  @apply transition-opacity duration-300;
+}
 .dt-text-hover {
   @apply opacity-75 hover:opacity-100;
 }

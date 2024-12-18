@@ -1,8 +1,8 @@
 <template>
   <nav
-    class="hidden dt-wrapper lg:flex dt-gap opacity-50 group-hover:opacity-100 dt-opacity-transition"
+    class="hidden dt-wrapper lg:flex dt-gap opacity-50 group-hover:opacity-100"
   >
-    <div class="flex flex-1 flex-col gap-2 items-start">
+    <div class="flex flex-1 flex-col gap-2 items-start dt-opacity-transition">
       <NuxtLink
         class="text-sm dt-text-hover"
         :class="{ 'font-bold': isActive('/work') || isActive('/') }"
