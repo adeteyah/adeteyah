@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     },
   },
   modules: ["@nuxt/image", "@nuxt/fonts", "@nuxt/icon", "@nuxtjs/color-mode"],
+  colorMode: {
+    classSuffix: "", // This ensures the 'dark' class is directly added to the <html> or <body> tag.
+  },
   postcss: {
     plugins: {
       tailwindcss: {},

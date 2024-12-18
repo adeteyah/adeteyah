@@ -25,11 +25,11 @@ export default {
         },
         background: {
           light: "#f1f2f3",
-          dark: "#242424",
+          dark: "#121212",
         },
         border: {
           light: "#e3e3e3",
-          dark: "#000",
+          dark: "#424242",
         },
       },
     },

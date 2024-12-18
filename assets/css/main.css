@@ -4,10 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  @apply bg-background-light text-text-light;
-}
-.dark-mode body {
-  @apply bg-background-dark text-text-dark;
+  @apply bg-background-light text-text-light dark:bg-background-dark dark:text-text-dark;
 }
 .sepia-mode body {
   background-color: #f1e7d0;
