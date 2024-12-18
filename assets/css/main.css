@@ -45,5 +45,5 @@ body {
   @apply transition-all duration-200 ease-linear;
 }
 .dt-divider {
-  @apply w-full bg-border/25 h-[1px];
+  @apply w-full h-[1px];
 }
