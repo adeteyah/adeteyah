@@ -6,7 +6,7 @@
   >
     <div class="group/left w-1/3 lg:w-4/12 pl-6 lg:pl-12 pr-2 lg:pr-4">
       <div
-        class="lg:opacity-50 lg:group-hover/left:opacity-100 dt-transition-opacity"
+        class="flex flex-col h-full lg:opacity-50 lg:group-hover/left:opacity-100 dt-transition-opacity"
       >
         <div class="flex-1">
           <AppBar />
@@ -21,7 +21,7 @@
     </div>
     <div class="group/right w-2/3 lg:w-8/12 pr-6 lg:pr-12 pl-2 lg:pl-4">
       <div
-        class="lg:opacity-50 lg:group-hover/right:opacity-100 dt-transition-opacity"
+        class="lg:opacity-50 lg:group-hover/right:opacity-100 dt-transition-opacity dt-wrapper"
       >
         <slot />
       </div>
