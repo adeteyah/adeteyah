@@ -7,7 +7,12 @@ export default defineNuxtConfig({
       name: "fade",
     },
   },
-  modules: ["@nuxt/image", "@nuxt/fonts", "@nuxt/icon"],
+  modules: [
+    "@nuxt/image",
+    "@nuxt/fonts",
+    "@nuxt/icon",
+    "@nuxtjs/color-mode",
+  ],
   postcss: {
     plugins: {
       tailwindcss: {},
