@@ -2,9 +2,12 @@
   <div id="default" class="flex gap-8">
     <div class="w-4/12 lg:w-4/12 flex flex-col justify-between group pl-8">
       <AppBar />
+      <div class="size-8 md:size-12 lg:size-16">
+        <IconLogo />
+      </div>
       <AppHeader />
-      <AppFooter />
       <AppIntro />
+      <AppFooter />
     </div>
     <div class="w-8/12 lg:w-8/12 pr-8">
       <main class="dt-wrapper">
