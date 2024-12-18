@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="grid lg:grid-cols-6 dt-gap-gallery">
+    <div class="grid lg:grid-cols-3 dt-gap-gallery">
       <div v-for="work in workData" :key="work.id">
         <nuxt-link class="group grid gap-2" :to="`/work/${work.id}`">
           <div
-            class="relative bg-lightgray lg:group-hover:bg-gray flex items-center aspect-video px-6 pt-8 lg:group-hover:pt-6 dt-transition-fade"
+            class="relative bg-lightgray lg:group-hover:bg-gray flex items-center aspect-video px-3 pt-4 lg:group-hover:pt-3 dt-transition-fade"
           >
             <img
               class="object-cover w-full h-full rounded-t-md"
