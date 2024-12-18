@@ -20,16 +20,16 @@ export default {
         lightgray: "#fefefe",
         white: "#f8f9fa",
         text: {
-          light: "#e3e3e3",
-          dark: "#242424",
+          light: "#242424",
+          dark: "#f1f2f3",
         },
         background: {
-          light: "#e3e3e3",
+          light: "#f1f2f3",
           dark: "#242424",
         },
         border: {
           light: "#e3e3e3",
-          dark: "#242424",
+          dark: "#000",
         },
       },
     },
