@@ -1,5 +1,5 @@
 <template>
-  <nav class="hidden dt-wrapper lg:flex dt-gap">
+  <nav class="dt-wrapper lg:flex dt-gap">
     <div
       class="opacity-50 group-hover:opacity-100 dt-transition-opacity flex flex-1 flex-col gap-2 items-start"
     >

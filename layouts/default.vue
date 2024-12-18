@@ -1,11 +1,11 @@
 <template>
   <div
     id="default"
-    class="grid dt-gap lg:gap-0 lg:flex transition-colors duration-1000 delay-500"
+    class="flex transition-colors duration-1000 delay-500"
     :class="{ 'bg-lightgray': $route.path.startsWith('/information') }"
   >
     <div
-      class="lg:w-4/12 flex flex-col justify-between group pl-6 lg:pl-12 pr-2 lg:pr-4"
+      class="w-1/3 lg:w-4/12 flex flex-col justify-between group pl-6 lg:pl-12 pr-2 lg:pr-4"
     >
       <div class="flex-1">
         <AppBar />
@@ -17,7 +17,7 @@
         <AppFooter />
       </div>
     </div>
-    <div class="lg:w-8/12 pr-6 lg:pr-12 pl-2 lg:pl-4">
+    <div class="w-2/3 lg:w-8/12 pr-6 lg:pr-12 pl-2 lg:pl-4">
       <main class="dt-wrapper">
         <slot />
       </main>
@@ -26,6 +26,6 @@
 </template>
 <style>
 #default > div {
-  @apply lg:h-svh lg:max-h-svh lg:overflow-hidden lg:overflow-y-auto;
+  @apply h-svh max-h-svh overflow-hidden overflow-y-auto;
 }
 </style>
