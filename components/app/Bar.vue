@@ -50,7 +50,7 @@
         :class="{ 'font-bold': $route.path === '/information' }"
         to="/information/whatelse"
       >
-        UI/UX Desisssgn
+        Clients
       </NuxtLink>
       <NuxtLink
         class="text-sm dt-text-hover"
