@@ -1,13 +1,3 @@
 <template>
-  <div>
-    
-  </div>
+  <div class="bg-lightgray p-4 rounded-md">Text</div>
 </template>
-
-<script lang="ts" setup>
-
-</script>
-
-<style>
-
-</style>
