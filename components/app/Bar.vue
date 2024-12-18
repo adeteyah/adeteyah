@@ -50,17 +50,17 @@
     >
       <NuxtLink
         class="text-sm dt-text-hover"
+        :class="{ 'font-bold': isActive('/information') }"
+        to="/information"
+      >
+        About
+      </NuxtLink>
+      <NuxtLink
+        class="text-sm dt-text-hover"
         :class="{ 'font-bold': isActive('/information/clients') }"
         to="/information/clients"
       >
         Clients
-      </NuxtLink>
-      <NuxtLink
-        class="text-sm dt-text-hover"
-        :class="{ 'font-bold': isActive('/information/services') }"
-        to="/information/services"
-      >
-        Services
       </NuxtLink>
       <NuxtLink
         class="text-sm dt-text-hover"
