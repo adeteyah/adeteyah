@@ -1,12 +1,12 @@
 <template>
   <div id="default" class="flex">
-    <div class="w-4/12 lg:w-4/12 h-svh flex flex-col justify-between group">
+    <div class="w-4/12 flex flex-col justify-between">
       <AppBar />
       <AppHeader />
       <AppIntro />
       <AppFooter />
     </div>
-    <div class="w-8/12 lg:w-8/12 max-h-svh overflow-hidden overflow-y-auto">
+    <div class="w-8/12 overflow-hidden overflow-y-auto">
       <main class="dt-wrapper">
         <slot />
       </main>
@@ -15,6 +15,6 @@
 </template>
 <style scoped>
 #default > div {
-  @apply px-4 md:px-8 lg:px-12;
+  @apply group lg:w-8/12 h-svh max-h-svh;
 }
 </style>
