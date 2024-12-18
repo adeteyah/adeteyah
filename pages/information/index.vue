@@ -1,3 +1,5 @@
 <template>
-  <div class="bg-lightgray p-4 rounded-md">Text</div>
+  <div class="bg-white py-6 px-8 rounded-md">
+    <p class="text-9xl">Helping brands thrive in the digital world</p>
+  </div>
 </template>
