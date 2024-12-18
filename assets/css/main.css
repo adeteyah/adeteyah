@@ -3,14 +3,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* Hide scrollbar for all elements */
 ::-webkit-scrollbar {
-  display: none; /* For Chrome, Safari, and Opera */
+  display: none;
 }
-
 body {
-  scrollbar-width: none; /* For Firefox */
-  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
   font-family: "Satoshi", sans-serif;
   @apply tracking-tight text-darker;
 }
@@ -18,7 +16,7 @@ body {
   @apply opacity-75 hover:opacity-100;
 }
 .dt-container {
-  @apply mx-auto px-8 md:px-10 lg:px-12;
+  @apply mx-auto px-6 md:px-9 lg:px-12;
 }
 .dt-wrapper {
   @apply py-2 md:py-4 lg:py-6;
