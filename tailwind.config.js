@@ -19,6 +19,14 @@ export default {
         gray: "#f1f2f3",
         lightgray: "#fefefe",
         white: "#f8f9fa",
+        text: {
+          light: "#e3e3e3",
+          dark: "#242424",
+        },
+        background: {
+          light: "#e3e3e3",
+          dark: "#242424",
+        },
         border: {
           light: "#e3e3e3",
           dark: "#242424",
