@@ -8,9 +8,6 @@ export default defineNuxtConfig({
     },
   },
   modules: ["@nuxt/image", "@nuxt/fonts", "@nuxt/icon", "@nuxtjs/color-mode"],
-  colorMode: {
-    classSuffix: "", // Adds the 'dark' class without a suffix
-  },
   postcss: {
     plugins: {
       tailwindcss: {},
