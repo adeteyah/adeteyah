@@ -6,28 +6,9 @@
         Information
       </NuxtLink>
     </div>
-    <div
-      id="work-option"
-      class="flex flex-col gap-2 items-start"
-      v-if="$route.path == '/'"
-    >
+    <div class="flex flex-col gap-2 items-start">
       <NuxtLink class="text-sm dt-text-hover" to="/work/tag/uiux">
         UI/UX Design
-      </NuxtLink>
-      <NuxtLink class="text-sm dt-text-hover" to="/work/tag/website">
-        Website
-      </NuxtLink>
-      <NuxtLink class="text-sm dt-text-hover" to="/work/tag/mobile">
-        Mobile App
-      </NuxtLink>
-    </div>
-    <div
-      id="information-option"
-      class="flex flex-col gap-2 items-start"
-      v-if="$route.path == '/information'"
-    >
-      <NuxtLink class="text-sm dt-text-hover" to="/work/tag/uiux">
-        UIs
       </NuxtLink>
       <NuxtLink class="text-sm dt-text-hover" to="/work/tag/website">
         Website
