@@ -17,8 +17,8 @@
         <AppFooter />
       </div>
     </div>
-    <div class="w-2/3 lg:w-8/12 pr-6 lg:pr-12 pl-2 lg:pl-4">
-      <main class="dt-wrapper">
+    <div class="group w-2/3 lg:w-8/12 pr-6 lg:pr-12 pl-2 lg:pl-4">
+      <main class="dt-wrapper lg:opacity-50 lg:group-hover:opacity-100">
         <slot />
       </main>
     </div>
