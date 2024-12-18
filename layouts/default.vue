@@ -3,8 +3,8 @@
     <div class="w-4/12 lg:w-4/12 flex flex-col justify-between group pl-8">
       <AppBar />
       <AppHeader />
-      <AppIntro />
       <AppFooter />
+      <AppIntro />
     </div>
     <div class="w-8/12 lg:w-8/12 pr-8">
       <main class="dt-wrapper">

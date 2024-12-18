@@ -1,9 +1,9 @@
 <template>
   <div class="dt-wrapper">
     <UiSubtitle>
-      <template #firstText> Freelance designer & developer </template>
+      <template #firstText>Designer & developer</template>
       <template #secondText> Based in Bandung </template>
-      <template #thirdText>Let’s make your vision come alive! </template>
+      <template #thirdText>17:00</template>
     </UiSubtitle>
   </div>
 </template>
