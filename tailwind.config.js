@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./components/**/*.{js,vue,ts}",
@@ -20,7 +19,10 @@ export default {
         gray: "#999D9E",
         lightgray: "#E9EAEB",
         white: "#ffffff",
-        border: "#D2D2D2",
+        border: {
+          light: "#D2D2D2",
+          dark: "#444444",
+        },
       },
     },
   },
