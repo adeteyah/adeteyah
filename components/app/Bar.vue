@@ -3,16 +3,14 @@
     <div class="flex flex-1 flex-col gap-2 items-start">
       <NuxtLink
         class="text-sm dt-text-hover"
-        :class="{
-          'font-bold': $route.path === '/' || $route.path.startsWith('/work'),
-        }"
+        :class="{ 'font-bold': isActive('/work') || isActive('/') }"
         to="/"
       >
         Work
       </NuxtLink>
       <NuxtLink
         class="text-sm dt-text-hover"
-        :class="{ 'font-bold': $route.path.startsWith('/information') }"
+        :class="{ 'font-bold': isActive('/information') }"
         to="/information"
       >
         Information
@@ -20,25 +18,25 @@
     </div>
     <div
       class="flex flex-1 flex-col gap-2 items-start"
-      v-if="/^\/$|^\/work\//.test($route.path)"
+      v-if="isActive('/') || isActive('/work')"
     >
       <NuxtLink
         class="text-sm dt-text-hover"
-        :class="{ 'font-bold': $route.path === '/work/tag/uiux' }"
+        :class="{ 'font-bold': isActive('/work/tag/uiux') }"
         to="/work/tag/uiux"
       >
         UI/UX Design
       </NuxtLink>
       <NuxtLink
         class="text-sm dt-text-hover"
-        :class="{ 'font-bold': $route.path === '/work/tag/website' }"
+        :class="{ 'font-bold': isActive('/work/tag/website') }"
         to="/work/tag/website"
       >
         Website
       </NuxtLink>
       <NuxtLink
         class="text-sm dt-text-hover"
-        :class="{ 'font-bold': $route.path === '/work/tag/mobile' }"
+        :class="{ 'font-bold': isActive('/work/tag/mobile') }"
         to="/work/tag/mobile"
       >
         Mobile App
@@ -46,25 +44,25 @@
     </div>
     <div
       class="flex flex-1 flex-col gap-2 items-start"
-      v-if="/^\/information(\/|$)/.test($route.path)"
+      v-if="isActive('/information')"
     >
       <NuxtLink
         class="text-sm dt-text-hover"
-        :class="{ 'font-bold': $route.path === '/information/clients' }"
+        :class="{ 'font-bold': isActive('/information/clients') }"
         to="/information/clients"
       >
         Clients
       </NuxtLink>
       <NuxtLink
         class="text-sm dt-text-hover"
-        :class="{ 'font-bold': $route.path === '/information/services' }"
+        :class="{ 'font-bold': isActive('/information/services') }"
         to="/information/services"
       >
         Services
       </NuxtLink>
       <NuxtLink
         class="text-sm dt-text-hover"
-        :class="{ 'font-bold': $route.path === '/information/contact' }"
+        :class="{ 'font-bold': isActive('/information/contact') }"
         to="/information/contact"
       >
         Contact
@@ -72,3 +70,15 @@
     </div>
   </nav>
 </template>
+<script>
+export default {
+  computed: {
+    isActive() {
+      return (path) => {
+        const fullPath = this.$route.path;
+        return fullPath === path || fullPath.startsWith(path + "/");
+      };
+    },
+  },
+};
+</script>
