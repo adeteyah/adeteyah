@@ -1,8 +1,8 @@
 <template>
-  <nav
-    class="hidden dt-wrapper lg:flex dt-gap opacity-50 group-hover:opacity-100"
-  >
-    <div class="flex flex-1 flex-col gap-2 items-start dt-opacity-transition">
+  <nav class="hidden dt-wrapper lg:flex dt-gap">
+    <div
+      class="opacity-50 group-hover:opacity-100 dt-transition-opacity flex flex-1 flex-col gap-2 items-start"
+    >
       <NuxtLink
         class="text-sm dt-text-hover"
         :class="{ 'font-bold': isActive('/work') || isActive('/') }"
@@ -19,7 +19,7 @@
       </NuxtLink>
     </div>
     <div
-      class="flex flex-1 flex-col gap-2 items-start"
+      class="opacity-50 group-hover:opacity-100 dt-transition-opacity delay-200 flex flex-1 flex-col gap-2 items-start"
       v-if="isActive('/') || isActive('/work')"
     >
       <NuxtLink
@@ -45,7 +45,7 @@
       </NuxtLink>
     </div>
     <div
-      class="flex flex-1 flex-col gap-2 items-start"
+      class="opacity-50 group-hover:opacity-100 dt-transition-opacity delay-200 flex flex-1 flex-col gap-2 items-start"
       v-if="isActive('/information')"
     >
       <NuxtLink
