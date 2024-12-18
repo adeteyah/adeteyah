@@ -8,7 +8,7 @@
     </div>
     <div
       class="flex flex-1 flex-col gap-2 items-start"
-      v-if="$route.path == '/'"
+      v-if="/^\/$|^\/work\//.test($route.path)"
     >
       <NuxtLink class="text-sm dt-text-hover" to="/work/tag/uiux">
         UI/UX Design
