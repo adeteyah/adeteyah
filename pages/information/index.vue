@@ -1,6 +1,6 @@
 <template>
   <UiColorToggler />
-  <div>Infor</div>
+  <div>About me</div>
 </template>
 
 <script lang="ts" setup></script>
