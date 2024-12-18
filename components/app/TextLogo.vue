@@ -1,10 +1,12 @@
 <template>
   <div class="inline font-bold">
-    <span class="dt-transition-fade opacity-50 group-hover:opacity-100">
+    <span
+      class="opacity-50 group-hover:opacity-100 transition-opacity duration-500"
+    >
       Aditiya
     </span>
     <span
-      class="dt-transition-fade opacity-50 group-hover:opacity-100 delay-200"
+      class="opacity-50 group-hover:opacity-100 transition-opacity duration-500 delay-200"
     >
       Rachman
     </span>

@@ -1,5 +1,5 @@
 <template>
-  <footer class="dt-wrapper flex gap-4">
+  <footer class="dt-wrapper grid lg:flex dt-gap">
     <NuxtLink to="/">Copy email</NuxtLink>
     <NuxtLink to="/">Schedule a call</NuxtLink>
   </footer>
