@@ -15,6 +15,6 @@
 </template>
 <style scoped>
 #default > div {
-  @apply px-4 lg:px-8;
+  @apply px-4;
 }
 </style>
