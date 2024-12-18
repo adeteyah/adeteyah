@@ -21,11 +21,11 @@ export default {
         white: "#f8f9fa",
         text: {
           light: "#242424",
-          dark: "#f1f2f3",
+          dark: "#808080",
         },
         background: {
           light: "#f1f2f3",
-          dark: "#121212",
+          dark: "#141414",
         },
         border: {
           light: "#e3e3e3",
