@@ -50,7 +50,7 @@
     >
       <NuxtLink
         class="text-sm dt-text-hover"
-        :class="{ 'font-bold': isActive('/information') }"
+        :class="{ 'font-bold': isActive('/information', true) }"
         to="/information"
       >
         About
@@ -76,8 +76,11 @@
 export default {
   computed: {
     isActive() {
-      return (path) => {
+      return (path, exact = false) => {
         const fullPath = this.$route.path;
+        if (exact) {
+          return fullPath === path;
+        }
         return fullPath === path || fullPath.startsWith(path + "/");
       };
     },
