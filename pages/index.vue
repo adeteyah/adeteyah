@@ -1,5 +1,4 @@
 <template>
-  <WorkIndexGrid />
   <div>
     <h1>Color mode: {{ $colorMode.value }}</h1>
     <select v-model="$colorMode.preference">
@@ -9,6 +8,7 @@
       <option value="sepia">Sepia</option>
     </select>
   </div>
+  <WorkIndexGrid />
 </template>
 
 <script setup>
