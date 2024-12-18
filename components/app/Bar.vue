@@ -3,13 +3,16 @@
     <div class="flex flex-1 flex-col gap-2 items-start">
       <NuxtLink
         class="text-sm dt-text-hover"
-        :class="{ 'font-bold': $route.path === '/' }"
+        :class="{
+          'font-bold': $route.path === '/' || $route.path.startsWith('/work'),
+        }"
         to="/"
-        >Work</NuxtLink
       >
+        Work
+      </NuxtLink>
       <NuxtLink
         class="text-sm dt-text-hover"
-        :class="{ 'font-bold': $route.path === '/information' }"
+        :class="{ 'font-bold': $route.path.startsWith('/information') }"
         to="/information"
       >
         Information
