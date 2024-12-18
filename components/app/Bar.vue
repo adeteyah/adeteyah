@@ -54,15 +54,15 @@
       </NuxtLink>
       <NuxtLink
         class="text-sm dt-text-hover"
-        :class="{ 'font-bold': $route.path === '/information' }"
-        to="/information"
+        :class="{ 'font-bold': $route.path === '/information/experience' }"
+        to="/information/experience"
       >
         Experience
       </NuxtLink>
       <NuxtLink
         class="text-sm dt-text-hover"
-        :class="{ 'font-bold': $route.path === '/information' }"
-        to="/information"
+        :class="{ 'font-bold': $route.path === '/information/contact' }"
+        to="/information/contact"
       >
         Contact
       </NuxtLink>
