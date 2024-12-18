@@ -10,6 +10,9 @@ body {
 .dt-transition-opacity {
   @apply transition-opacity duration-500;
 }
+.dt-transition-colors {
+  @apply transition-colors duration-500;
+}
 .dt-text-hover {
   @apply opacity-75 hover:opacity-100;
 }

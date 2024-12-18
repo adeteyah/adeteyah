@@ -1,5 +1,9 @@
 <template>
-  <div id="default" class="flex">
+  <div
+    id="default"
+    class="flex transition-colors duration-1000 delay-500"
+    :class="{ 'bg-lightgray': $route.path.startsWith('/information') }"
+  >
     <div
       class="w-1/3 lg:w-4/12 flex flex-col justify-between group pl-6 lg:pl-12 pr-2 lg:pr-4"
     >
