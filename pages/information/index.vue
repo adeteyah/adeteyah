@@ -1,5 +1,4 @@
 <template>
-  <UiColorToggler />
   <div>About me</div>
   <div>Skill</div>
   <div>Experience</div>
