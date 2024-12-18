@@ -48,21 +48,21 @@
       <NuxtLink
         class="text-sm dt-text-hover"
         :class="{ 'font-bold': $route.path === '/information' }"
-        to="/information/whatelse"
+        to="/information"
       >
         Clients
       </NuxtLink>
       <NuxtLink
         class="text-sm dt-text-hover"
         :class="{ 'font-bold': $route.path === '/information' }"
-        to="/information/whatelse"
+        to="/information"
       >
         Website
       </NuxtLink>
       <NuxtLink
         class="text-sm dt-text-hover"
         :class="{ 'font-bold': $route.path === '/information' }"
-        to="/information/whatelse"
+        to="/information"
       >
         Contact
       </NuxtLink>
