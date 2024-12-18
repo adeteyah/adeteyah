@@ -64,7 +64,7 @@
         :class="{ 'font-bold': $route.path === '/information' }"
         to="/information/whatelse"
       >
-        Mobile App
+        Contact
       </NuxtLink>
     </div>
   </nav>
