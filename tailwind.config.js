@@ -20,12 +20,12 @@ export default {
         lightgray: "#fefefe",
         white: "#f8f9fa",
         text: {
-          light: "#242424",
+          light: "#f5efed",
           dark: "#808080",
         },
         background: {
           light: "#fefefe",
-          dark: "#141414",
+          dark: "#0f0a0a",
         },
         border: {
           light: "#e3e3e3",
