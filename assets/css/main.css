@@ -44,3 +44,6 @@ body {
 .dt-transition-fade {
   @apply transition-all duration-200 ease-linear;
 }
+.dt-divider {
+  @apply w-full bg-border/10 h-[1px];
+}

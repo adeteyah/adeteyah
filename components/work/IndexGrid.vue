@@ -18,9 +18,8 @@
             >
               {{ work.title }}
             </h3>
-            <UiDivider />
             <div
-              class="text-sm flex justify-between opacity-25 lg:group-hover:opacity-100 dt-transition-fade"
+              class="text-sm flex justify-between opacity-0 lg:group-hover:opacity-100 dt-transition-fade"
             >
               <p>{{ work.service }}</p>
               <p>{{ work.year }}</p>

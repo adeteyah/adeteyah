@@ -3,7 +3,7 @@
     <div class="grid lg:grid-cols-3 dt-gap-gallery">
       <!-- Filter by the current URL's tag dynamically -->
       <div v-for="work in filteredWorks" :key="work.id">
-        <nuxt-link class="group grid gap-2" :to="`/work/${work.id}`">
+        <nuxt-link class="group grid gap-4" :to="`/work/${work.id}`">
           <div
             class="relative bg-lightgray lg:group-hover:bg-gray flex items-center aspect-video px-3 pt-4 lg:group-hover:pt-3 dt-transition-fade"
           >
@@ -13,7 +13,7 @@
               :alt="work.title"
             />
           </div>
-          <div class="grid gap-1">
+          <div class="grid gap-2">
             <h3
               class="text-lg font-semibold lg:opacity-50 lg:group-hover:opacity-100 dt-transition-fade"
             >
