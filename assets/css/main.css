@@ -4,12 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  background-color: white;
-  color: rgba(0, 0, 0, 0.8);
+  @apply bg-white text-darker;
 }
 .dark-mode body {
-  background-color: #091a28;
-  color: #ebf4f1;
+  @apply bg-darker text-white;
 }
 .sepia-mode body {
   background-color: #f1e7d0;
@@ -17,7 +15,7 @@ body {
 }
 body {
   font-family: "Satoshi", sans-serif;
-  @apply tracking-tight text-darker;
+  @apply tracking-tight;
 }
 .dt-transition-opacity {
   @apply transition-opacity duration-500;
