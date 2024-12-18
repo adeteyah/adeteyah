@@ -1,7 +1,8 @@
 <template>
   <div>
     <div class="grid lg:grid-cols-3 dt-gap-gallery">
-      <div v-for="work in workData" :key="work.id">
+      <!-- Filter by the current URL's tag dynamically -->
+      <div v-for="work in filteredWorks" :key="work.id">
         <nuxt-link class="group grid gap-2" :to="`/work/${work.id}`">
           <div
             class="relative bg-lightgray lg:group-hover:bg-gray flex items-center aspect-video px-3 pt-4 lg:group-hover:pt-3 dt-transition-fade"
@@ -34,5 +35,20 @@
 
 <script setup>
 import work from "~/assets/data/work.js";
-const workData = work;
+import { useRoute } from "vue-router";
+import { computed } from "vue";
+
+// Get the current route object
+const route = useRoute();
+
+// Extract the current tag from the URL path
+const currentTag = computed(() => {
+  const match = route.path.match(/\/work\/tag\/(\w+)/);
+  return match ? match[1] : "";
+});
+
+// Dynamically filter the works based on the extracted tag
+const filteredWorks = computed(() => {
+  return work.filter((w) => w.tag === currentTag.value);
+});
 </script>
