@@ -1,4 +1,5 @@
 <template>
+  <UiColorToggler />
   <div>Infor</div>
 </template>
 
