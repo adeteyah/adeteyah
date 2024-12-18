@@ -24,6 +24,13 @@
     >
       <NuxtLink
         class="text-sm dt-text-hover"
+        :class="{ 'font-bold': isActive('/', true) }"
+        to="/"
+      >
+        All
+      </NuxtLink>
+      <NuxtLink
+        class="text-sm dt-text-hover"
         :class="{ 'font-bold': isActive('/work/tag/uiux') }"
         to="/work/tag/uiux"
       >
