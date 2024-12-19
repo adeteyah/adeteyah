@@ -9,6 +9,13 @@ export default {
   ],
   theme: {
     extend: {
+      scrollbar: {
+        width: "2",
+        track: "gray-100",
+        thumb: "gray-300",
+        "thumb-dark": "neutral-500",
+        "track-dark": "neutral-700",
+      },
       colors: {
         transparent: "transparent",
         current: "currentColor",
@@ -18,5 +25,5 @@ export default {
     },
   },
   darkMode: "class",
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };
