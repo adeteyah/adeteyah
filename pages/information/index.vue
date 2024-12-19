@@ -1,4 +1,8 @@
 <template>
+  <div class="dt-vertical-wrapper dt-horizontal-wrapper">
+    Passionateaboutwebtechnologies.Iloveworkingattheintersectionofcreativityanduserfriendlyinterfaces.Icreatememorablewebexperiences.
+    When I'm not building or explo
+  </div>
   <div class="grid grid-cols-8 gap-4">
     <div class="">HTML/CSS</div>
     <div class="">JS/TS</div>
