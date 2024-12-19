@@ -47,7 +47,7 @@ body {
   @apply gap-2 md:gap-3 lg:gap-4;
 }
 .dt-gap-gallery {
-  @apply gap-4 lg:gap-x-12 lg:gap-y-8;
+  @apply gap-4 lg:gap-x-8 lg:gap-y-6;
 }
 .dt-text-huge {
   @apply text-4xl md:text-6xl lg:text-9xl;
