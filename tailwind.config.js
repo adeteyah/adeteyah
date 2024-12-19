@@ -12,8 +12,8 @@ export default {
       colors: {
         transparent: "transparent",
         current: "currentColor",
-        black: "#121212",
-        white: "#f1f2f3",
+        black: "#181818",
+        white: "#f1f1f1",
       },
     },
   },
