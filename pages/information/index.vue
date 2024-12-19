@@ -19,9 +19,37 @@
         2023 - Present
       </p>
       <div class="flex flex-col lg:items-end">
-        <div class="lg:w-1/2 py-4">
-          <p class="text-xl">Test</p>
-        </div>
+        <AboutRecognitionList>
+          <template #at> Facebook </template>
+          <template #job> Design Manager and Product Designer </template>
+        </AboutRecognitionList>
+        <AboutRecognitionList>
+          <template #at> Facebook </template>
+          <template #job> Design Manager and Product Designer </template>
+        </AboutRecognitionList>
+        <AboutRecognitionList>
+          <template #at> Facebook </template>
+          <template #job> Design Manager and Product Designer </template>
+        </AboutRecognitionList>
+      </div>
+    </div>
+    <div>
+      <p class="text-4xl leading-9 border-b-2 border-black pb-4">
+        2023 - Present
+      </p>
+      <div class="flex flex-col lg:items-end">
+        <AboutRecognitionList>
+          <template #at> Facebook </template>
+          <template #job> Design Manager and Product Designer </template>
+        </AboutRecognitionList>
+        <AboutRecognitionList>
+          <template #at> Facebook </template>
+          <template #job> Design Manager and Product Designer </template>
+        </AboutRecognitionList>
+        <AboutRecognitionList>
+          <template #at> Facebook </template>
+          <template #job> Design Manager and Product Designer </template>
+        </AboutRecognitionList>
       </div>
     </div>
   </div>
