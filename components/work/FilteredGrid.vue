@@ -17,7 +17,7 @@
           >
             <div class="flex justify-between">
               <p class="text-lg font-semibold">{{ work.title }}</p>
-              {{ work.title }}
+              <Icon name="system-uicons:arrow-top-right" />
             </div>
             <div class="flex justify-between">
               <p class="text-sm">{{ work.service }}</p>
