@@ -1,7 +1,7 @@
 <template>
   <div class="grid gap-12">
-    <div class="grid lg:grid-cols-2 gap-12">
-      <div class="text-2xl leading-9">
+    <div class="grid lg:grid-cols-2">
+      <div class="text-2xl leading-9 p-24">
         With a background in design, I work closely with design focused teams to
         build websites and microsites for companies and individuals. I have
         years of experience working and collaborating on product teams and
@@ -15,8 +15,14 @@
       />
     </div>
     <div>
-      <p class="text-4xl leading-9">2023 - Present</p>
-      <div class="text-xl leading-9"></div>
+      <p class="text-4xl leading-9 border-b-2 border-black pb-4">
+        2023 - Present
+      </p>
+      <div class="flex flex-col lg:items-end">
+        <div class="lg:w-1/2 py-4">
+          <p class="text-xl">Test</p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
