@@ -2,8 +2,8 @@
   <div class="grid gap-12">
     <div class="grid lg:grid-cols-2">
       <div class="text-2xl leading-9 p-24">
-        <div class="block">
-          <Icon name="lucide:arrow-down-right" size="96" />
+        <div class="block mb-12">
+          <Icon name="rivet-icons:arrow-down-right" size="42" />
         </div>
         With a background in design, I work closely with design focused teams to
         build websites and microsites for companies and individuals. I have
