@@ -6,12 +6,12 @@
           <Icon name="rivet-icons:arrow-down-right" size="42" />
         </div>
         <p
-          class="text-2xl leading-relaxed md:text-4xl md:leading-relaxed lg:text-8xl lg:leading-relaxed"
+          class="text-xl leading-relaxed md:text-3xl md:leading-relaxed lg:text-6xl lg:leading-relaxed"
         >
           Contact
         </p>
         <p
-          class="text-xl leading-relaxed md:text-2xl md:leading-relaxed lg:text-4xl lg:leading-relaxed"
+          class="text-lg leading-relaxed md:text-xl md:leading-relaxed lg:text-2xl lg:leading-relaxed"
         >
           Let's start a project together
         </p>
