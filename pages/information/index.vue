@@ -7,15 +7,6 @@
     experience working and collaborating on product teams and leading
     engineering efforts. With my experience in UI and product engineering, I
     solve product problems and build appealing usable web experiences.
-    <div class="flex flex-wrap dt-gap">
-      <div class="">HTML/CSS</div>
-      <div class="">JS/TS</div>
-      <div class="">Laravel</div>
-      <div class="">Nuxt</div>
-      <div class="">Flutter</div>
-      <div class="">Vue</div>
-      <div class="">Laravel</div>
-    </div>
   </div>
 </template>
 
