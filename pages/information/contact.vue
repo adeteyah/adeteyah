@@ -1,7 +1,16 @@
 <template>
   <div class="grid gap-12">
-    <div class="">
-      <p class="text-9xl leading-relaxed">Let's start a project together</p>
+    <div class="grid grid-cols-2">
+      <p
+        class="text-2xl leading-relaxed md:text-4xl md:leading-relaxed lg:text-8xl lg:leading-relaxed"
+      >
+        Let's start a project together
+      </p>
+      <p
+        class="text-2xl leading-relaxed md:text-4xl md:leading-relaxed lg:text-8xl lg:leading-relaxed"
+      >
+        Let's start a project together
+      </p>
     </div>
   </div>
 </template>
