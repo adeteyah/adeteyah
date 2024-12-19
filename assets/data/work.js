@@ -2,8 +2,7 @@ export default [
   {
     id: 1,
     title: "Project Alpha",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65c3a43c2f798911476445.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Vue.js", "Node.js"],
     year: 2023,
     service: "Website & Design",
@@ -14,8 +13,7 @@ export default [
   {
     id: 2,
     title: "Design Beta",
-    image:
-      "https://assets.awwwards.com/awards/avatar/222913/665dc853c0cd3010379460.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Nuxt.js", "Tailwind CSS"],
     year: 2022,
     service: "Website & Design",
@@ -26,8 +24,7 @@ export default [
   {
     id: 3,
     title: "App Gamma",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65bbd8837c04b606744545.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["React", "Express.js"],
     year: 2021,
     service: "Website & Design",
@@ -38,8 +35,7 @@ export default [
   {
     id: 4,
     title: "Store Delta",
-    image:
-      "https://assets.awwwards.com/awards/avatar/1670413/647deb336a30f207375047.png",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Angular", "Firebase"],
     year: 2023,
     service: "Website & Design",
@@ -50,8 +46,7 @@ export default [
   {
     id: 5,
     title: "The Epsilon",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2022/01/61e0624395dd2515020605.png",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Svelte", "Django"],
     year: 2022,
     service: "Website & Design",
@@ -62,8 +57,7 @@ export default [
   {
     id: 6,
     title: "Landing Zeta",
-    image:
-      "https://assets.awwwards.com/awards/avatar/1057145/667adddad76a9046689073.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Gatsby", "GraphQL"],
     year: 2021,
     service: "Website & Design",
@@ -74,8 +68,7 @@ export default [
   {
     id: 7,
     title: "Courseratve",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65c3a43c2f798911476445.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["React", "Express.js"],
     year: 2021,
     service: "Website & Design",
@@ -86,8 +79,7 @@ export default [
   {
     id: 8,
     title: "Bold Turbo",
-    image:
-      "https://assets.awwwards.com/awards/avatar/222913/665dc853c0cd3010379460.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Vue.js", "Laravel"],
     year: 2023,
     service: "Website & Design",
@@ -98,8 +90,7 @@ export default [
   {
     id: 9,
     title: "Kanye East",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65bbd8837c04b606744545.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Next.js", "Node.js"],
     year: 2022,
     service: "Website & Design",
@@ -110,8 +101,7 @@ export default [
   {
     id: 10,
     title: "Kanye West",
-    image:
-      "https://assets.awwwards.com/awards/avatar/1670413/647deb336a30f207375047.png",
+    image: "https://placehold.co/1920x1080",
     techstack: ["React Native", "Firebase"],
     year: 2021,
     service: "Mobile App & Design",
@@ -122,8 +112,7 @@ export default [
   {
     id: 11,
     title: "Omega Finance",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2022/01/61e0624395dd2515020605.png",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Angular", "Spring Boot"],
     year: 2023,
     service: "Website & Design",
@@ -134,8 +123,7 @@ export default [
   {
     id: 12,
     title: "Health Plus",
-    image:
-      "https://assets.awwwards.com/awards/avatar/1057145/667adddad76a9046689073.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Vue.js", "Django"],
     year: 2022,
     service: "Website & Design",
@@ -146,8 +134,7 @@ export default [
   {
     id: 13,
     title: "EduLearn",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65c3a43c2f798911476445.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["React", "Node.js"],
     year: 2021,
     service: "Website & Design",
@@ -158,8 +145,7 @@ export default [
   {
     id: 14,
     title: "Travel Explorer",
-    image:
-      "https://assets.awwwards.com/awards/avatar/222913/665dc853c0cd3010379460.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Next.js", "Express.js"],
     year: 2023,
     service: "Website & Design",
@@ -170,8 +156,7 @@ export default [
   {
     id: 15,
     title: "Foodie's Delight",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65bbd8837c04b606744545.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Nuxt.js", "Laravel"],
     year: 2022,
     service: "Website & Design",
@@ -182,8 +167,7 @@ export default [
   {
     id: 1,
     title: "Project Alpha",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65c3a43c2f798911476445.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Vue.js", "Node.js"],
     year: 2023,
     service: "Website & Design",
@@ -194,8 +178,7 @@ export default [
   {
     id: 2,
     title: "Design Beta",
-    image:
-      "https://assets.awwwards.com/awards/avatar/222913/665dc853c0cd3010379460.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Nuxt.js", "Tailwind CSS"],
     year: 2022,
     service: "Website & Design",
@@ -206,8 +189,7 @@ export default [
   {
     id: 3,
     title: "App Gamma",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65bbd8837c04b606744545.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["React", "Express.js"],
     year: 2021,
     service: "Website & Design",
@@ -218,8 +200,7 @@ export default [
   {
     id: 4,
     title: "Store Delta",
-    image:
-      "https://assets.awwwards.com/awards/avatar/1670413/647deb336a30f207375047.png",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Angular", "Firebase"],
     year: 2023,
     service: "Website & Design",
@@ -230,8 +211,7 @@ export default [
   {
     id: 5,
     title: "The Epsilon",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2022/01/61e0624395dd2515020605.png",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Svelte", "Django"],
     year: 2022,
     service: "Website & Design",
@@ -242,8 +222,7 @@ export default [
   {
     id: 6,
     title: "Landing Zeta",
-    image:
-      "https://assets.awwwards.com/awards/avatar/1057145/667adddad76a9046689073.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Gatsby", "GraphQL"],
     year: 2021,
     service: "Website & Design",
@@ -254,8 +233,7 @@ export default [
   {
     id: 7,
     title: "Courseratve",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65c3a43c2f798911476445.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["React", "Express.js"],
     year: 2021,
     service: "Website & Design",
@@ -266,8 +244,7 @@ export default [
   {
     id: 8,
     title: "Bold Turbo",
-    image:
-      "https://assets.awwwards.com/awards/avatar/222913/665dc853c0cd3010379460.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Vue.js", "Laravel"],
     year: 2023,
     service: "Website & Design",
@@ -278,8 +255,7 @@ export default [
   {
     id: 9,
     title: "Kanye East",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65bbd8837c04b606744545.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Next.js", "Node.js"],
     year: 2022,
     service: "Website & Design",
@@ -290,8 +266,7 @@ export default [
   {
     id: 10,
     title: "Kanye West",
-    image:
-      "https://assets.awwwards.com/awards/avatar/1670413/647deb336a30f207375047.png",
+    image: "https://placehold.co/1920x1080",
     techstack: ["React Native", "Firebase"],
     year: 2021,
     service: "Mobile App & Design",
@@ -302,8 +277,7 @@ export default [
   {
     id: 11,
     title: "Omega Finance",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2022/01/61e0624395dd2515020605.png",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Angular", "Spring Boot"],
     year: 2023,
     service: "Website & Design",
@@ -314,8 +288,7 @@ export default [
   {
     id: 12,
     title: "Health Plus",
-    image:
-      "https://assets.awwwards.com/awards/avatar/1057145/667adddad76a9046689073.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Vue.js", "Django"],
     year: 2022,
     service: "Website & Design",
@@ -326,8 +299,7 @@ export default [
   {
     id: 13,
     title: "EduLearn",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65c3a43c2f798911476445.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["React", "Node.js"],
     year: 2021,
     service: "Website & Design",
@@ -338,8 +310,7 @@ export default [
   {
     id: 14,
     title: "Travel Explorer",
-    image:
-      "https://assets.awwwards.com/awards/avatar/222913/665dc853c0cd3010379460.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Next.js", "Express.js"],
     year: 2023,
     service: "Website & Design",
@@ -350,8 +321,7 @@ export default [
   {
     id: 15,
     title: "Foodie's Delight",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65bbd8837c04b606744545.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Nuxt.js", "Laravel"],
     year: 2022,
     service: "Website & Design",
@@ -362,8 +332,7 @@ export default [
   {
     id: 1,
     title: "Project Alpha",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65c3a43c2f798911476445.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Vue.js", "Node.js"],
     year: 2023,
     service: "Website & Design",
@@ -374,8 +343,7 @@ export default [
   {
     id: 2,
     title: "Design Beta",
-    image:
-      "https://assets.awwwards.com/awards/avatar/222913/665dc853c0cd3010379460.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Nuxt.js", "Tailwind CSS"],
     year: 2022,
     service: "Website & Design",
@@ -386,8 +354,7 @@ export default [
   {
     id: 3,
     title: "App Gamma",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65bbd8837c04b606744545.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["React", "Express.js"],
     year: 2021,
     service: "Website & Design",
@@ -398,8 +365,7 @@ export default [
   {
     id: 4,
     title: "Store Delta",
-    image:
-      "https://assets.awwwards.com/awards/avatar/1670413/647deb336a30f207375047.png",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Angular", "Firebase"],
     year: 2023,
     service: "Website & Design",
@@ -410,8 +376,7 @@ export default [
   {
     id: 5,
     title: "The Epsilon",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2022/01/61e0624395dd2515020605.png",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Svelte", "Django"],
     year: 2022,
     service: "Website & Design",
@@ -422,8 +387,7 @@ export default [
   {
     id: 6,
     title: "Landing Zeta",
-    image:
-      "https://assets.awwwards.com/awards/avatar/1057145/667adddad76a9046689073.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Gatsby", "GraphQL"],
     year: 2021,
     service: "Website & Design",
@@ -434,8 +398,7 @@ export default [
   {
     id: 7,
     title: "Courseratve",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65c3a43c2f798911476445.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["React", "Express.js"],
     year: 2021,
     service: "Website & Design",
@@ -446,8 +409,7 @@ export default [
   {
     id: 8,
     title: "Bold Turbo",
-    image:
-      "https://assets.awwwards.com/awards/avatar/222913/665dc853c0cd3010379460.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Vue.js", "Laravel"],
     year: 2023,
     service: "Website & Design",
@@ -458,8 +420,7 @@ export default [
   {
     id: 9,
     title: "Kanye East",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65bbd8837c04b606744545.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Next.js", "Node.js"],
     year: 2022,
     service: "Website & Design",
@@ -470,8 +431,7 @@ export default [
   {
     id: 10,
     title: "Kanye West",
-    image:
-      "https://assets.awwwards.com/awards/avatar/1670413/647deb336a30f207375047.png",
+    image: "https://placehold.co/1920x1080",
     techstack: ["React Native", "Firebase"],
     year: 2021,
     service: "Mobile App & Design",
@@ -482,8 +442,7 @@ export default [
   {
     id: 11,
     title: "Omega Finance",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2022/01/61e0624395dd2515020605.png",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Angular", "Spring Boot"],
     year: 2023,
     service: "Website & Design",
@@ -494,8 +453,7 @@ export default [
   {
     id: 12,
     title: "Health Plus",
-    image:
-      "https://assets.awwwards.com/awards/avatar/1057145/667adddad76a9046689073.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Vue.js", "Django"],
     year: 2022,
     service: "Website & Design",
@@ -506,8 +464,7 @@ export default [
   {
     id: 13,
     title: "EduLearn",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65c3a43c2f798911476445.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["React", "Node.js"],
     year: 2021,
     service: "Website & Design",
@@ -518,8 +475,7 @@ export default [
   {
     id: 14,
     title: "Travel Explorer",
-    image:
-      "https://assets.awwwards.com/awards/avatar/222913/665dc853c0cd3010379460.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Next.js", "Express.js"],
     year: 2023,
     service: "Website & Design",
@@ -530,8 +486,7 @@ export default [
   {
     id: 15,
     title: "Foodie's Delight",
-    image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65bbd8837c04b606744545.jpg",
+    image: "https://placehold.co/1920x1080",
     techstack: ["Nuxt.js", "Laravel"],
     year: 2022,
     service: "Website & Design",
