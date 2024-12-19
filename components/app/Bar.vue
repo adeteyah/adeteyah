@@ -62,15 +62,15 @@
       </NuxtLink>
       <NuxtLink
         class="text-sm dt-text-hover"
-        :class="{ 'font-bold': isActive('/information/clients') }"
-        to="/information/clients"
+        :class="{ 'font-bold': isActive('/information') }"
+        to="/information#clients"
       >
         Clients
       </NuxtLink>
       <NuxtLink
         class="text-sm dt-text-hover"
-        :class="{ 'font-bold': isActive('/information/contact') }"
-        to="/information/contact"
+        :class="{ 'font-bold': isActive('/information') }"
+        to="/information#contact"
       >
         Contact
       </NuxtLink>
