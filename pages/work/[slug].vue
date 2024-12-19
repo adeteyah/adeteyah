@@ -15,16 +15,25 @@
           src="https://dennissnellenberg.com/assets/img/DSC07312-2.jpg"
         />
       </div>
-      <div class="text-2xl leading-9 lg:p-24">
-        <div class="block mb-12">
-          <Icon name="rivet-icons:arrow-down-right" size="42" />
+      <div class="p-24 flex flex-col gap-8">
+        <p class="text-8xl leading-relaxed">Bruce Mau Design</p>
+        <p class="text-2xl leading-9">Bruce Mau Design</p>
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <p class="text-2xl leading-9">Info</p>
+            <p class="text-2xl leading-9">
+              Bruce Mau Design is an awards winning brand and design studio
+              based out of Toronto.
+            </p>
+          </div>
+          <div>
+            <p class="text-2xl leading-9">Info</p>
+            <p class="text-2xl leading-9">
+              Bruce Mau Design is an awards winning brand and design studio
+              based out of Toronto.
+            </p>
+          </div>
         </div>
-        With a background in design, I work closely with design focused teams to
-        build websites and microsites for companies and individuals. I have
-        years of experience working and collaborating on product teams and
-        leading engineering efforts. With my experience in UI and product
-        engineering, I solve product problems and build appealing usable web
-        experiences.
       </div>
     </div>
   </div>
