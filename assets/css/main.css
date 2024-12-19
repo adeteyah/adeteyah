@@ -7,9 +7,17 @@
 body {
   @apply bg-white text-black dark:bg-black dark:text-white;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif;
+  @apply tracking-tighter;
+}
 body {
-  font-family: "Satoshi", sans-serif;
-  @apply tracking-tight;
+  font-family: "Apfel Grotezk", sans-serif;
 }
 .dt-invert-bg {
   @apply bg-black/10 dark:bg-white/10;
