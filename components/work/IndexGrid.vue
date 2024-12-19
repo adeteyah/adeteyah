@@ -1,26 +1,24 @@
 <template>
   <div>
-    <div class="grid lg:grid-cols-5 dt-gap-gallery">
+    <div class="grid lg:grid-cols-4 dt-gap-gallery">
       <div v-for="work in workData" :key="work.id">
-        <nuxt-link class="group grid gap-2" :to="`/work/${work.id}`">
+        <nuxt-link class="group/card grid gap-4" :to="`/work/${work.id}`">
           <div
-            class="relative bg-lightgray lg:group-hover:bg-gray flex items-center aspect-video px-3 pt-4 lg:group-hover:pt-3 dt-transition-fade"
+            class="relative flex items-center aspect-video px-6 pt-8 bg-black/10 group-hover/card:bg-black/25 dark:bg-white/10 dark:group-hover/card:bg-white/25 dt-transition-colors"
           >
             <img
-              class="object-cover w-full h-full rounded-t-md"
+              class="object-cover w-full h-full"
               :src="work.image"
               :alt="work.title"
             />
           </div>
-          <div class="grid gap-1">
-            <h3
-              class="text-lg font-semibold lg:opacity-50 lg:group-hover:opacity-100 dt-transition-fade"
-            >
+          <div
+            class="grid gap-2 lg:opacity-50 lg:group-hover/card:opacity-100 dt-transition-opacity"
+          >
+            <h3 class="text-lg font-semibold">
               {{ work.title }}
             </h3>
-            <div
-              class="text-sm flex justify-between opacity-0 lg:group-hover:opacity-100 dt-transition-fade"
-            >
+            <div class="text-sm flex justify-between">
               <p>{{ work.service }}</p>
               <p>{{ work.year }}</p>
             </div>

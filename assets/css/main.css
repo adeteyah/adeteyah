@@ -1,44 +1,47 @@
 @import "noise.css";
 @import "transition.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 body {
-  @apply bg-background-light text-text-light dark:bg-background-dark dark:text-text-dark;
-}
-.sepia-mode body {
-  background-color: #f1e7d0;
-  color: #433422;
+  @apply bg-white text-black dark:bg-black dark:text-white;
 }
 body {
   font-family: "Satoshi", sans-serif;
   @apply tracking-tight;
 }
+.dt-invert-hover {
+  @apply bg-black/5 lg:group-hover:bg-black/25 dark:bg-white/10 dark:lg:group-hover:bg-white;
+}
 .dt-transition-opacity {
-  @apply transition-opacity duration-500;
+  @apply transition-opacity duration-200;
 }
 .dt-transition-colors {
-  @apply transition-colors duration-500;
+  @apply transition-colors duration-200;
+}
+.dt-transition-transform {
+  @apply transition-transform duration-200;
 }
 .dt-text-hover {
   @apply opacity-75 hover:opacity-100;
 }
-.dt-container {
+.dt-vertical-wrapper {
   @apply mx-auto px-6 md:px-9 lg:px-12;
 }
-.dt-wrapper {
+.dt-horizontal-wrapper {
   @apply py-2 md:py-4 lg:py-6;
 }
 .dt-gap {
   @apply gap-2 md:gap-3 lg:gap-4;
 }
 .dt-gap-gallery {
-  @apply gap-4 md:gap-5 lg:gap-6;
+  @apply gap-x-6 md:gap-x-10 lg:gap-x-14 gap-y-8 md:gap-y-12 lg:gap-y-16;
 }
 .dt-text-huge {
   @apply text-4xl md:text-6xl lg:text-9xl;
 }
-.dt-transition-fade {
+.dt-transition-opacity {
   @apply transition-all duration-200 ease-linear;
 }
 .dt-divider {

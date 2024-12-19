@@ -1,5 +1,5 @@
 <template>
-  <nav class="dt-wrapper lg:flex dt-gap">
+  <nav class="dt-horizontal-wrapper lg:flex dt-gap">
     <div class="flex flex-1 flex-col gap-2 items-start">
       <NuxtLink
         class="text-sm dt-text-hover"

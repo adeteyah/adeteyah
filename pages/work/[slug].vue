@@ -1,7 +1,9 @@
 <template>
-  <div></div>
+  <div>Test</div>
 </template>
 
-<script lang="ts" setup></script>
-
-<style></style>
+<script setup lang="ts">
+definePageMeta({
+  layout: "work",
+});
+</script>
