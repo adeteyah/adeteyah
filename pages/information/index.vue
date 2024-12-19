@@ -1,5 +1,5 @@
 <template>
-  <div class="dt-bg-invert p-4">
+  <div class="dt-invert-bg p-4">
     <div>About me</div>
     <div>Skill</div>
     <div>Experience</div>

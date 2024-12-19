@@ -11,6 +11,9 @@ body {
   font-family: "Satoshi", sans-serif;
   @apply tracking-tight;
 }
+.dt-invert-bg {
+  @apply bg-black/10 dark:bg-white/10;
+}
 .dt-invert-hover {
   @apply bg-black/5 lg:group-hover:bg-black/25 dark:bg-white/10 dark:lg:group-hover:bg-white;
 }
