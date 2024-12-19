@@ -15,12 +15,16 @@
           <div
             class="grid gap-2 lg:opacity-50 lg:group-hover/card:opacity-100 dt-transition-opacity"
           >
-            <h3 class="text-lg font-semibold">
-              {{ work.title }}
-            </h3>
-            <div class="text-sm flex justify-between">
-              <p>{{ work.service }}</p>
-              <p>{{ work.year }}</p>
+            <div class="flex justify-between">
+              <p class="text-lg font-semibold">{{ work.title }}</p>
+              <Icon
+                name="lucide:arrow-up-right"
+                class="text-lg opacity-0 lg:group-hover/card:opacity-100 dt-transition-opacity"
+              />
+            </div>
+            <div class="flex justify-between">
+              <p class="text-sm">{{ work.service }}</p>
+              <p class="text-sm">{{ work.year }}</p>
             </div>
           </div>
         </nuxt-link>
