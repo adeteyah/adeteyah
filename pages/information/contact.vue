@@ -16,10 +16,7 @@
           Let's start a project together
         </p>
       </div>
-      <img
-        class="object-cover w-full h-full"
-        src="https://dennissnellenberg.com/assets/img/DSC07312-2.jpg"
-      />
+      <div class="bg-black/10 dark:bg-white/10 p-12"></div>
     </div>
   </div>
 </template>
