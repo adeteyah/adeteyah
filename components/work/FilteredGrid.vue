@@ -17,7 +17,10 @@
           >
             <div class="flex justify-between">
               <p class="text-lg font-semibold">{{ work.title }}</p>
-              <Icon name="system-uicons:arrow-top-right" />
+              <Icon
+                name="lucide:arrow-up-right"
+                class="text-lg opacity-0 lg:group-hover/card:opacity-100 dt-transition-opacity"
+              />
             </div>
             <div class="flex justify-between">
               <p class="text-sm">{{ work.service }}</p>
