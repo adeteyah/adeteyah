@@ -4,7 +4,7 @@
       <div v-for="work in workData" :key="work.id">
         <nuxt-link class="group/card grid gap-4" :to="`/work/${work.id}`">
           <div
-            class="relative flex items-center aspect-video px-6 pt-8 bg-black/10 group-hover/card:bg-black/25 dark:bg-white/10 dark:group-hover/card:bg-white/25 dt-transition-colors"
+            class="relative flex items-center aspect-video px-6 pt-8 group-hover/card:p-0 bg-black/10 group-hover/card:bg-black/25 dark:bg-white/10 dark:group-hover/card:bg-white/25 transition-all duration-500"
           >
             <img
               class="object-cover w-full h-full"
