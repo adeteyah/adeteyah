@@ -16,7 +16,9 @@
           Let's start a project together
         </p>
       </div>
-      <div class="bg-black/5 dark:bg-white/5 p-12"></div>
+      <div class="bg-black/5 dark:bg-white/5 p-12">
+        I'm always happy to talk. AVAILABLE FOR FREELANCE WORK
+      </div>
     </div>
   </div>
 </template>
