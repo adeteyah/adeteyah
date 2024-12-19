@@ -36,7 +36,7 @@ body {
   @apply gap-2 md:gap-3 lg:gap-4;
 }
 .dt-gap-gallery {
-  @apply gap-x-4 md:gap-x-8 lg:gap-x-12 gap-y-8 md:gap-y-12 lg:gap-y-16;
+  @apply gap-4 lg:gap-x-12 lg:gap-y-8;
 }
 .dt-text-huge {
   @apply text-4xl md:text-6xl lg:text-9xl;
