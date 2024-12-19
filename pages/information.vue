@@ -55,7 +55,7 @@
         </AboutRecognitionList>
       </div>
     </div>
-    <div class="grid lg:grid-cols-2">
+    <div id="contact" class="grid lg:grid-cols-2">
       <div class="text-2xl leading-9 lg:p-24">
         <div class="block mb-12">
           <Icon name="rivet-icons:arrow-right" size="42" />
