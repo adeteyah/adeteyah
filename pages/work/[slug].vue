@@ -4,6 +4,6 @@
 
 <script setup lang="ts">
 definePageMeta({
-  layout: "vertical",
+  layout: "work-detail",
 });
 </script>

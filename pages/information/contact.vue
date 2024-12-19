@@ -1,14 +1,12 @@
 <template>
   <div class="grid gap-12">
     <div class="">
-      <p class="text-9xl leading-relaxed p-24 uppercase">
-        Let's Talk About The Project?
-      </p>
+      <p class="text-9xl leading-relaxed">Let's start a project together</p>
     </div>
   </div>
 </template>
 <script setup lang="ts">
 definePageMeta({
-  layout: "vertical",
+  layout: "contact",
 });
 </script>
