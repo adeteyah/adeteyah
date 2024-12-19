@@ -2,7 +2,7 @@
   <div>
     <div class="grid lg:grid-cols-6 dt-gap-gallery">
       <div v-for="work in workData" :key="work.id">
-        <nuxt-link class="group/card grid gap-4" :to="`/work/${work.id}`">
+        <nuxt-link class="group/card grid gap-3" :to="`/work/${work.id}`">
           <div
             class="relative flex items-center aspect-video px-6 pt-8 group-hover/card:pt-6 bg-black/10 group-hover/card:bg-black/25 dark:bg-white/10 dark:group-hover/card:bg-white/25 transition-all duration-400"
           >
