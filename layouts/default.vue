@@ -21,7 +21,7 @@
     </div>
     <div
       id="scroll-container"
-      class="w-2/3 lg:w-8/12 pr-6 lg:pr-12 pl-2 lg:pl-4"
+      class="w-2/3 lg:w-8/12 pr-6 lg:pr-12 pl-2 lg:pl-4 scrollbar scrollbar-thumb-gray-300 scrollbar-track-gray-100 dark:scrollbar-thumb-neutral-500 dark:scrollbar-track-neutral-700"
     >
       <div class="dt-horizontal-wrapper">
         <slot />
