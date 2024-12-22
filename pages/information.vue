@@ -22,18 +22,18 @@
         2023 - Present
       </p>
       <div class="flex flex-col lg:items-end">
-        <AboutRecognitionList>
+        <InformationList>
           <template #at> Facebook </template>
           <template #job> Design Manager and Product Designer </template>
-        </AboutRecognitionList>
-        <AboutRecognitionList>
+        </InformationList>
+        <InformationList>
           <template #at> Facebook </template>
           <template #job> Design Manager and Product Designer </template>
-        </AboutRecognitionList>
-        <AboutRecognitionList>
+        </InformationList>
+        <InformationList>
           <template #at> Facebook </template>
           <template #job> Design Manager and Product Designer </template>
-        </AboutRecognitionList>
+        </InformationList>
       </div>
     </div>
     <div>
@@ -41,18 +41,18 @@
         2023 - Present
       </p>
       <div class="flex flex-col lg:items-end">
-        <AboutRecognitionList>
+        <InformationList>
           <template #at> Facebook </template>
           <template #job> Design Manager and Product Designer </template>
-        </AboutRecognitionList>
-        <AboutRecognitionList>
+        </InformationList>
+        <InformationList>
           <template #at> Facebook </template>
           <template #job> Design Manager and Product Designer </template>
-        </AboutRecognitionList>
-        <AboutRecognitionList>
+        </InformationList>
+        <InformationList>
           <template #at> Facebook </template>
           <template #job> Design Manager and Product Designer </template>
-        </AboutRecognitionList>
+        </InformationList>
       </div>
     </div>
     <div id="contact" class="grid lg:grid-cols-2">
