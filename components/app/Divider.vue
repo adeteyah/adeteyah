@@ -1,3 +1,3 @@
 <template>
-  <div class="dt-divider dt-invert-hover"></div>
+  <div class="border-2 border-black/50 dark:border-white/50"></div>
 </template>
