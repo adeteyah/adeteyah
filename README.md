@@ -7,5 +7,23 @@
 <span><img src="https://komarev.com/ghpvc/?username=adeteyah&label=Profile%20views&color=181818&style=flat" alt="adeteyah" /></span>
 </div>
 <hr>
-<img align="left" src="https://github-profile-trophy.vercel.app/?username=adeteyah" alt="adeteyah" />
+<img src="https://github-profile-trophy.vercel.app/?username=adeteyah" alt="adeteyah" />
 
+<details>
+<summary>Stats</summary>
+<br>
+
+  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adeteyah&layout=compact)
+
+<br>
+
+![Adeteyah's GitHub stats](https://github-readme-stats.vercel.app/api?username=adeteyah&show_icons=true)
+
+
+</details>
+
+## Connect with Me
+
+- [LinkedIn](https://www.linkedin.com/in/adeteyah)
+- [Twitter](https://twitter.com/adeteyah)
