@@ -1,4 +1,4 @@
-<img align="left" src="animation.gif" width="200">
+
 
 ### Hey!
 
