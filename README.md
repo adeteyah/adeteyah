@@ -1,20 +1,15 @@
-## Hi there 👋  
+<img align="left" src="animation.gif">
 
-![Animation](animation.gif)  
+### Hey!
 
-### Test  
-- Test  
-- Test  
-- Test  
+👾 I'm **Adeteyah**.
 
----
+🦀 A programmer with a deep passion for Data.
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=adeteyah)  
+🐁 I work on websites and mobile apps.
 
----
+<br>
+<br>
+<br>
+<br>
 
-## Comparison Table  
-
-| Good  | Bad  |  
-|-------|------|  
-| Test  | Test |  
