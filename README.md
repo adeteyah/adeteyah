@@ -10,7 +10,7 @@
 <img src="https://github-profile-trophy.vercel.app/?username=adeteyah" alt="adeteyah" />
 
 <details>
-<summary>Stats</summary>
+<summary><b>More stats</b></summary>
 <br>
 
   
@@ -22,8 +22,3 @@
 
 
 </details>
-
-## Connect with Me
-
-- [LinkedIn](https://www.linkedin.com/in/adeteyah)
-- [Twitter](https://twitter.com/adeteyah)
