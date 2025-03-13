@@ -1,13 +1,12 @@
-<img align="left" src="animation.gif" width="200">
+<img align="right" src="animation.gif" width="150">
 
-### Hey!
-
-👾 I'm **Adeteyah**.
-
-🦀 A programmer with a deep passion for Data.
-
-🐁 I work on websites and mobile apps.
-
-<img src="https://komarev.com/ghpvc/?username=adeteyah&label=Profile%20views&color=0e75b6&style=flat" alt="adeteyah" />
+<div align="left">
+<p>🙋🏼‍♂️ I'm <b>Adeteyah</b>.</p>
+<p>👨🏼‍💻 A programmer from Bandung, Indonesia.</p>
+<p>🏗️ I work on websites and mobile apps.</p>
+<span><img src="https://komarev.com/ghpvc/?username=adeteyah&label=Profile%20views&color=0e75b6&style=flat" alt="adeteyah" /></span>
+</div>
+<br>
+<br>
 <img align="left" src="https://github-profile-trophy.vercel.app/?username=adeteyah" alt="adeteyah" />
 
