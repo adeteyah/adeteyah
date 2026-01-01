@@ -7,7 +7,6 @@
 <span><img src="https://komarev.com/ghpvc/?username=adeteyah&label=Profile%20views&color=181818&style=flat" alt="adeteyah" /></span>
 </div>
 <hr>
-<img src="https://github-profile-trophy.vercel.app/?username=adeteyah" alt="adeteyah" />
 
 <details>
 <summary><b>More stats</b></summary>
