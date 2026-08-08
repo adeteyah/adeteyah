@@ -1,6 +1,6 @@
 # Hi, I'm Adeteyah
 
-Programmer from **Bandung, Indonesia**.
+Programmer from **Bandung, Indonesia**. Currently live in **Jakarta**.
 
 I build web and mobile applications, with a focus on clean, reusable, and scalable systems.
 
