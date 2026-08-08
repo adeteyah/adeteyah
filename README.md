@@ -1,8 +1,9 @@
-<img align="right" src="animation.gif" width="150">
+# Hi, I'm Adeteyah
 
-<div align="left">
-<p>🙋🏼‍♂️ I'm <b>Adeteyah</b>.</p>
-<p>👨🏼‍💻 A programmer from Bandung, Indonesia.</p>
-<p>🏗️ I work on websites and mobile apps.</p>
-<span><img src="https://komarev.com/ghpvc/?username=adeteyah&label=Profile%20views&color=181818&style=flat" alt="adeteyah" /></span>
-</div>
+Programmer from **Bandung, Indonesia**.
+
+I build web and mobile applications, with a focus on clean, reusable, and scalable systems.
+
+[Portfolio](https://adeteyah.vercel.app) · [LinkedIn](https://linkedin.com/in/adeteyah) · [Email](mailto:adeteyah@gmail.com)
+
+<img src="https://komarev.com/ghpvc/?username=adeteyah&label=Profile%20views&color=181818&style=flat" alt="adeteyah" />
